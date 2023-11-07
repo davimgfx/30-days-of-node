@@ -7,7 +7,7 @@ http.createServer(function (req, res) {
 	console.log("Port Number : 3000");
 	// change the MIME type from 'text/plain' to 'text/html'
     res.writeHead(200, {'Content-Type': 'text/html'});
-	//reading the content file
+	//reading the content file, Synchronously
 	fs.readFile('index.html', (err, data) => {
 		//checking for errors
 		if (err) 
