@@ -35,3 +35,44 @@ Existem dois modos de ler:
 - Espera as outras tarefas a serem executadas, e enquanto não for concluida, trava o sistema.
 
 ### E isso se repete para escrita, acrescentar, renomear, deletar ...
+
+## Dia 3
+
+### NPM ( node package manager)
+
+### O que é NPM?
+
+O NPM, ou Node Package Manager, é um gerenciador de pacotes para a linguagem de programação JavaScript. Ele permite que os desenvolvedores instalem, gerenciem e compartilhem pacotes de código reutilizável (bibliotecas, frameworks, módulos) com facilidade.
+
+O npm instala pacotes de forma global (com a opção -g) ou local (no diretório do projeto) e os torna disponíveis para uso em scripts e código do projeto.
+
+Exemplos:
+
+```npm init react-app my-app```
+
+```npm i nodemon -D``` (instala como dependência)
+
+
+
+Na parte package.json, possui esse parte do código
+```
+ "scripts": {
+    "start": "node day3/index",
+    "dev": "nodemon day3/index"
+  },
+```
+
+Ou seja se exercutar **npm start** executa o node, e se executar **npm run dev** executa a biblioteca nodemon, dentro da pasta day3
+
+Instalando
+```npm install next@latest react@latest react-dom@latest```
+
+Instalando versons expecificas de um pacote
+```npm install express@4.15.1``
+
+Update
+```npm update```
+
+Removendo
+```npm rm nodemon -D``` (remove como dependência)
+```>npm uninstall --save gannit``` (remove do packjson)
