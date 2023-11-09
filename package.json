@@ -2,10 +2,10 @@
   "name": "30-days-of-node",
   "version": "1.0.0",
   "description": "Taking on a 30-day Node.js learning challenge.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node day3/index",
-    "dev": "nodemon day3/index"
+    "start": "node day4/index",
+    "dev": "nodemon day4/index"
   },
   "author": "Davi Fernandes",
   "license": "ISC",

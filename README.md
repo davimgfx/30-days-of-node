@@ -76,3 +76,7 @@ Update
 Removendo
 ```npm rm nodemon -D``` (remove como dependência)
 ```>npm uninstall --save gannit``` (remove do packjson)
+
+## Dia 4
+
+### Emitir e ouvir eventos
