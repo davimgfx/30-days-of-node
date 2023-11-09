@@ -80,3 +80,5 @@ Removendo
 ## Dia 4
 
 ### Emitir e ouvir eventos
+
+### Errors, promesas e try/catch
