@@ -82,3 +82,11 @@ Removendo
 ### Emitir e ouvir eventos
 
 ### Errors, promesas e try/catch
+
+## Dia 5
+
+### Iniciando um servidor
+Digite o comando
+```
+npm init -y
+```
